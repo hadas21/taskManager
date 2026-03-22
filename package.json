@@ -1,0 +1,17 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Urgent logistics task API with async queue",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "bullmq": "^5.12.8",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.1",
+    "ioredis": "^5.4.1"
+  }
+}
